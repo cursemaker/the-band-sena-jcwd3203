@@ -1,7 +1,7 @@
 
 import { MainContent } from "./components/main.content";
 import { NavBar } from "./components/navbar";
-import { Members } from "./components/members.content";
+import ContentComponent from "./components/content.component";
 
 
 export default function Home() {
@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <NavBar/>
       <MainContent/>
-      <Members/>
+      <ContentComponent/>
     </>    
   );
 }
